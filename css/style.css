@@ -18,17 +18,18 @@ a {
     border: 5px rgb(184, 184, 131);
     text-decoration: none;
     display: inline-block;
-    align-content: center;
     
 }
 
 nav {
-    color: olive;
-    background-color: rgb(200, 190, 151);
-    grid-area: nav;
     display:flex;
-    justify-content: center;
-    align-items: center;
+    height: 20vh;
+    width: auto;
+}
+
+#steak {
+    height: auto;
+    width: auto;
 }
 
 a:hover {
@@ -44,7 +45,14 @@ header {
 }
 
 
-#grid_wrapper {
-    align-items: center;
-    justify-content: center;
+footer {
+    background-color: honeydew;
+}
+
+.food{
+    height: auto;
+    display: block;
+    width: 100%;
+    height: auto;
+
 }
