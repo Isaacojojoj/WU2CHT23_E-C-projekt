@@ -3,22 +3,32 @@
     box-sizing: border-box;
 }
 
+
 body {
     background-color: #e67e22;
 }
 
+#steak{
+    background-image: url("../img/steak.jpg");
+    background-size: cover;
+    
+}
+
 a {
-    font-size: 1rem;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background: olive;
     width: 200px;
     height: 150px;
     margin: 20px;
-    padding: 50px;
-    border: 5px rgb(184, 184, 131);
-    text-decoration: none;
     display: inline-block;
-    
+    text-decoration: none;
+    justify-content: center;
+    justify-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-content: space-around;
+    align-items: center;
+}
+
+section {
+
 }
 
 nav {
@@ -30,6 +40,10 @@ nav {
 #steak {
     height: auto;
     width: auto;
+    justify-items: stretch;
+    align-items: stretch;
+    justify-content: stretch;
+    justify-self: stretch;
 }
 
 a:hover {
@@ -40,7 +54,8 @@ a:hover {
 header {
     text-align: center;
     font-size: 50px;
-    height: 10vh;
+    height: 15vh;
+    background-color: rebeccapurple;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -50,9 +65,10 @@ footer {
 }
 
 .food{
-    height: auto;
     display: block;
     width: 100%;
     height: auto;
-
+    align-items: center;
 }
+
+
