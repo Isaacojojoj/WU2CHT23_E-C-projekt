@@ -12,7 +12,7 @@
     grid-template-areas: 
         "hea"
         "nav"
-        "content"
+        "se1"
         "foo";
 }
 
@@ -21,8 +21,8 @@
     justify-items: center;
     min-height: 100vh;
     flex-direction: column;
-    grid-area: content;
-    background-color: black;
+    grid-area: se1;
+    background-color: rgb(236, 223, 223);
     color: black;
     display: flex;
     justify-content: center;
@@ -30,23 +30,16 @@
     height: 15vh;
 }
 
-.kontakt-heading {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
 .kontakt-images {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-}
-
-.kontakt-image {
+    align-items: center; 
     width: 200px;
     height: auto;
     margin: 10px;
+    flex-direction: column;
 }
 
 li {
@@ -155,7 +148,7 @@ h2 {
 }
 
 h3 {
-    grid-area: se3;
+    grid-area: se1;
     background-color: wheat;
 }
 
